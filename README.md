@@ -1,2 +1,2 @@
 # Coursera-Yaakov
-Repositorie for the course material
+Repository for the course material
