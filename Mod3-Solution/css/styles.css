@@ -1,84 +1,28 @@
-
-
+@media (min-width: 576px){
+	nav div#navbarSupportedContent{
+	display:none !important; 
+	}
+}
 *{
 	box-sizing: border-box;
-	margin:0px;
-	font-family: Georgia;
 }
-
+h1 {
+	margin:20px; 
+	font-weight: bold;
+	text-transform: uppercase;
+}
 body{
-	background: linear-gradient(#ffffff -25%,#985cb7) fixed;
-	}
-
-h1{
-	font-size: 262.5%;
-	text-align: center;
-	margin:50px; 
-	color:#000001;
+	background-color: #ca8888;
 }
-
-section.cuadro-grande{
-	position: relative;
-	height: 200px;
-	background-color: #ca7aca;
-	display: inline-block;
-	border: 2px solid #000000;
-	float: left;
-	overflow: auto;
+nav{
+	background-color: #cfe6f7;
 }
-
-section.cuadro-grande>p {
-	clear: right;
-	padding: 5%;
-	font-size: 150%;
-	padding-top: 39px;
+.chicken, .sushi, .beef{
+	padding: 20px;
+	border:1px solid;
+	margin-top: 20px;
+	background-color: #cfe6f7;
 }
-
-section.cuadro-titulo{
-	padding:2px; 
-	text-align: center;
-	width: 40%;
-	height: 37px;
-	font-size: 187.5%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	border: 1px solid #000000;
-}
-
-.carne{
-	background-color: #dc8cd6 !important;
-}
-
-.pollo{
-	background-color: #65b5b9 !important; 
-}
-
-.pescado{
-	background-color: #77e675 !important;
-}
-
-@media (min-width: 992px){
-	section.cuadro-grande{
-		width: 31%;
-		margin:1%;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-	section.cuadro-grande{
-		width: 48%;
-		margin:1%;
-	}
-	section.cuadro-grande:last-child{
-		width: 98%;
-		margin:1%;
-	}
-}
-
-@media (max-width: 767px){
-	section.cuadro-grande{
-		width: 96%;
-		margin:2%;
-	}
+.chicken{
+	height: 1000px;
 }
