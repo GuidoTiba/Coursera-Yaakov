@@ -7,8 +7,8 @@
 }
 
 body{
-	background: linear-gradient(#ffffff -25%,#985cb7);
-	padding-bottom: 50%;}
+	background: linear-gradient(#ffffff -25%,#985cb7) fixed;
+	}
 
 h1{
 	font-size: 262.5%;
