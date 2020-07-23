@@ -1,4 +1,4 @@
-@media (min-width: 576px){
+@media (min-width: 767px){
 	nav div#navbarSupportedContent{
 	display:none !important; 
 	}
